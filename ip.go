@@ -11,15 +11,11 @@ import (
 )
 
 var urls = [...]string{
-	"http://ident.me",
-	"http://ipecho.net/plain",
 	"http://whatismyip.akamai.com",
-	"http://tnx.nl/ip",
-	"http://myip.dnsomatic.com",
-	"http://ifconfig.me",
 	"http://checkip.dyndns.com",
 	"http://myip.ipip.net",
-	"http://icanhazip.com",
+	"http://v4.ident.me",
+	"https://ipv4.icanhazip.com"
 }
 
 func init() {
